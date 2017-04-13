@@ -1,0 +1,21 @@
+body {
+	overflow: hidden;
+}
+
+#main-banner {
+	background: url('../images/background2.jpg') no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+#logo {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	text-align: center;
+}
+
+#logo img {
+	width: 22vw;
+}
