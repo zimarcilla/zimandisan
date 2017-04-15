@@ -28,6 +28,25 @@ body {
 	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
 }
 
+.scroll-down {
+    position: absolute;
+    bottom: 20px;
+    width: 100vw;
+    text-align: center;
+}
+
+.scroll-down a {
+    color: white;
+    font-size: 8px;
+    display: block;
+    width: 22px;
+    height: 36px;
+    margin: 0 auto;
+    border: 1px solid white;
+    border-radius: 16px;
+    padding-top: 7px;
+}
+
 /*RESPONSIVE Styles*/
 
 /* Small only */
