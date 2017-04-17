@@ -346,17 +346,6 @@ p {
  		width: 34vw;
 	}
 
-	.slideshow li.current {
-		height: 100vh!important;
-		position: relative;
-	}
-
-	.slideshow li.current img {
-		position: absolute;
-		top: 50%;
-		width: 100%;
-		transform: translate(0, -50%);
-	}
 
 
 }

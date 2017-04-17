@@ -31,6 +31,6 @@ var x = setInterval(function() {
 
 new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
 
-$(window).stellar({
+$('#main-banner').stellar({
 	horizontalScrolling: false,
 });
