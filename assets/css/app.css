@@ -1,5 +1,10 @@
 body {
-	overflow: hidden;
+	/*overflow: hidden;*/
+}
+
+p {
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
 }
 
 #main-banner {
@@ -35,6 +40,11 @@ body {
     text-align: center;
 }
 
+.scroll-down p {
+	color: white;
+	font-weight: 400;
+}
+
 .scroll-down a {
     color: white;
     font-size: 8px;
@@ -47,6 +57,196 @@ body {
     padding-top: 7px;
 }
 
+.scroll-down a i {
+	color: #920449;
+}
+
+
+#getting-married {
+	padding: 80px 0;
+}
+
+.zim-isan-container {
+	position: relative;
+	margin-bottom: 40px;
+}
+
+.zim-isan {
+	position: relative;
+}
+
+.zim-isan h1 {
+    font-family: "Alex Brush", sans-serif;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0);
+    color: white;
+    font-size: 60px;
+    margin: 0;
+    text-shadow: 2px 2px 0 rgba(68, 68, 68, 0.51);
+}
+
+.zim-isan img {
+    border-radius: 50%;
+    border: 9px solid #dee9ea;
+}
+
+.and {
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	width: 100px;
+	transform: translate(-50%, -50%);
+}
+
+.getting-married-text {
+    text-align: center;
+}
+
+.getting-married-text h1, #when-where h1 {
+    font-family: "Alex Brush", sans-serif;
+    font-size: 60px;
+    margin: 0;
+    color: #920449;
+}
+
+.getting-married-text p {
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+}
+
+#countdown {
+	text-align: center;
+	background: #dee9ea;
+	color: #17666b;
+}
+
+#countDown div {
+	display: inline-block;
+	margin: 40px;
+	text-align: center;
+	width: 70px!important;
+}
+
+#countDown div h4 {
+	font-family: "Amatic SC", Times,serif;
+	font-size: 80px;
+}
+
+#countDown div p {
+	font-family: "Lato", sans-serif;
+
+}
+
+#when-where {
+	padding: 60px;
+}
+
+#when-where h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.when-where-info {
+    background: rgba(23, 102, 107, 0.14);
+    padding: 40px 20px 20px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.when-where-info h2 {
+	font-family: "Amatic SC", Times,serif;
+	color: #17666b;
+    font-size: 50px;
+}
+
+.when-where-info .fa {
+    background: #920449;
+    color: white;
+    display: block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 0);
+    top: -32px;
+}
+
+#gallery {
+	padding: 60px;
+	background: #dee9ea;
+}
+
+#entourage {
+	padding: 60px;
+}
+
+#entourage .row {
+	margin-bottom: 60px;
+}
+
+#entourage h4 {
+    font-family: "Amatic SC", sans-serif;
+    text-align: center;
+    font-size: 32px;
+    line-height: 34px;
+}
+
+#gallery h1, #entourage h1 {
+	font-family: "Alex Brush", sans-serif;
+    font-size: 60px;
+    margin: 0;
+    color: #920449; 
+    text-align: center;
+}
+
+#entourage h1 {
+	margin-bottom: 20px;
+	font-size: 48px;
+}
+
+.groom-bride img {
+	border-radius: 50%;
+	border: 4px solid #dee9ea;
+	margin-bottom: 20px;
+}
+
+#footer {
+	background: url('../images/footer.jpg') no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 500px;
+	background-position: center center;
+}
+
+#footer img {
+	width: 10vw;
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.copyright p {
+	font-weight: 400;
+}
+
+.copyright a {
+	color: white;
+}
+
+.copyright {
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
 /*RESPONSIVE Styles*/
 
 /* Small only */
@@ -57,8 +257,111 @@ body {
     }
 
     #main-banner {
-	    background-position: center center;
+	    background-position-x: center!important;
     }
+
+    .and {
+    	position: relative;
+    	display: block;
+    	margin: 0 auto;
+    	left: 0;
+    	top: 0;
+    	transform: translate(0, 0);
+    }
+	
+	#getting-married {
+		padding: 60px 20px;
+	}
+
+    .getting-married-text h1 {
+    	font-size: 54px;
+    	line-height: 52px;
+    }
+
+    #when-where h1 {
+    	font-size: 40px;
+    }
+
+    #when-where {
+    	padding: 60px 20px;
+    }
+
+    #countdown {
+    	height: 360px;
+    }
+
+	#countdown .columns {
+		padding: 0;
+	}
+
+	#countDown {
+		background: #dee9ea;
+	}
+
+	#countDown div {
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+
+	.when-where-content {
+		margin-bottom: 20px;
+	}
+
+	.when-where-info h2 {
+		font-size: 32px;
+	}
+
+	.when-where-info p {
+		font-size: 14px;
+		margin-bottom: 0;
+	}
+
+	#gallery h1, #entourage h1 {
+		font-size: 40px;
+		line-height: 40px;
+	}
+
+	#entourage {
+		padding: 60px 20px;
+	}
+
+	#gallery {
+		padding: 60px 0;
+	}
+
+	#entourage h4 {
+		font-size: 22px;
+	}
+
+	.groom-bride img {
+		margin-bottom: 5px;
+	}
+
+	#footer {
+		background: url('../images/footer-small.jpg') no-repeat;
+		background-size: cover;
+	}
+
+	#footer img {
+ 		width: 34vw;
+	}
+
+	.slideshow li.current {
+		height: 100vh!important;
+		position: relative;
+	}
+
+	.slideshow li.current img {
+		position: absolute;
+		top: 50%;
+		width: 100%;
+		transform: translate(0, -50%);
+	}
+
+	.slideshow {
+		display: none;
+	}
+
 
 }
 

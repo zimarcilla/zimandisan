@@ -13,28 +13,288 @@
     <link rel="stylesheet" href="assets/css/linear-icons.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/component.css">
+    <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
+
+    
 
   </head>
   <body>
   
-    <section id="main-banner">
+    <section id="main-banner" data-stellar-background-ratio="0.5">
       <div id="logo">
         <img src="assets/images/logo-white.png" alt="">
-        <!-- <div id="countDown"></div> -->
         <h4>04.21.2017</h4>
       </div>
       <canvas id="bubbles"></canvas>
-<!--       <div class="scroll-down">
+      <div class="scroll-down">
+        <p>SCROLL FOR MORE INFO</p>
         <a href=""><i class="fa fa-heart animated slideInDown infinite"></i></a>
-      </div> -->
+      </div>
+    </section>
+
+    <section id="getting-married">
+      <div class="row zim-isan-container">
+        <div class="large-8 large-centered columns ">
+          <div class="large-5 columns zim-isan">
+            <img src="assets/images/zim.jpg" alt="">
+            <h1>Zim</h1>
+          </div>
+          <div class="large-2 columns">
+            <img class="and" src="assets/images/and.png" alt="">
+          </div>
+          <div class="large-5 columns zim-isan">
+            <img src="assets/images/isan.jpg" alt="">
+            <h1>Isan</h1>
+          </div>
+        </div>
+      </div>
+      <div class="row getting-married-text">
+        <div class="large-12 columns">
+          <h1>Are getting married</h1>
+          <!-- <p>on 21 April, 2017 — Virac, Catanduanes</p> -->
+        </div>
+      </div>
+    </section>
+
+    <section id="countdown">
+      <div class="large-8 large-centered columns">
+        <div id="countDown"></div>
+      </div>
+    </section>
+
+    <section id="when-where">
+      <h1>When & Where</h1>
+      <div class="row">
+        <div class="large-6 small-12 columns">
+          <div class="when-where-content">
+            <img src="assets/images/event-ceremony.jpg" alt="">
+            <div class="when-where-info">
+              <i class="fa fa-heart"></i>
+              <h2>Wedding Ceremony</h2>
+              <p>Friday, 21 April , 2017 - 2:00 PM</p>
+              <p>Virac Cathedral</p>
+            </div>
+          </div>
+        </div>
+        <div class="large-6 small-12 columns">
+          <div class="when-where-content">
+            <img src="assets/images/event-party.jpg" alt="">
+            <div class="when-where-info">
+              <i class="fa fa-glass"></i>
+              <h2>Wedding Reception</h2>
+              <p>Friday, 21 April , 2017 - 4:00 PM</p>
+              <p>Twin Rock Beach Resort</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <div class="cover-mobile">
+      <h1>Captured Moments</h1>
+      <div id="grid-gallery" class="grid-gallery">
+        <section class="grid-wrap">
+          <ul class="grid">
+            <li class="grid-sizer"></li><!-- for Masonry column width -->
+            <li>
+              <figure>
+                <img src="assets/images/thumb/prenup2-thumb.jpg" alt="img01"/>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img src="assets/images/thumb/prenup1-thumb.jpg" alt="img02"/>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img src="assets/images/thumb/prenup6.jpg" alt="img03"/>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img src="assets/images/thumb/prenup7.jpg" alt="img04"/>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img src="assets/images/thumb/prenup5.jpg" alt="img05"/>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img src="assets/images/thumb/prenup8.jpg" alt="img06"/>
+            </li>
+            <li>
+              <figure>
+                <img src="assets/images/thumb/prenup3.jpg" alt="img01"/>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img src="assets/images/thumb/prenup4.jpg" alt="img02"/>
+              </figure>
+            </li>
+          </ul>
+        </section><!-- // grid-wrap -->
+        <section class="slideshow">
+          <ul>
+            <li class="portrait">
+              <figure>
+                <img src="assets/images/large/prenup2.jpg" alt="img01"/>
+              </figure>
+            </li>
+            <li class="landscape">
+              <figure>
+                <img src="assets/images/large/prenup1.jpg" alt="img02"/>
+              </figure>
+            </li>
+            <li class="portrait">
+              <figure>
+                <img src="assets/images/large/prenup6.jpg" alt="img03"/>
+              </figure>
+            </li>
+            <li class="landscape">
+              <figure>
+                <img src="assets/images/large/prenup7.jpg" alt="img04"/>
+              </figure>
+            </li>
+            <li class="portrait">
+              <figure>
+                <img src="assets/images/large/prenup5.jpg" alt="img05"/>
+              </figure>
+            </li>
+            <li class="portrait">
+              <figure>
+                <img src="assets/images/large/prenup8.jpg" alt="img06"/>
+              </figure>
+            </li>
+            <li class="landscape">
+              <figure>
+                <img src="assets/images/large/prenup3.jpg" alt="img01"/>
+              </figure>
+            </li>
+            <li class="landscape">
+              <figure>
+                <img src="assets/images/large/prenup4.jpg" alt="img02"/>
+              </figure>
+            </li>
+          </ul>
+          <nav>
+            <span class="icon nav-prev"></span>
+            <span class="icon nav-next"></span>
+            <span class="icon nav-close"></span>
+          </nav>
+          <div class="info-keys icon">Navigate with arrow keys</div>
+        </section><!-- // slideshow -->
+      </div><!-- // grid-gallery -->
+      </div>
+    </section>
+
+    <section id="entourage">
+      <h1>The Groomsmen</h1>
+      <div class="row">
+          <div class="large-2 small-6 columns">
+            <div class="groom-bride">
+              <img src="assets/images/rj.jpg" alt="">
+              <h4>RJ Rodriguez</h4>
+            </div>
+          </div>
+          <div class="large-2 small-6 columns">
+            <div class="groom-bride">
+              <img src="assets/images/keno.jpg" alt="">
+              <h4>Keno Yap</h4>
+            </div>
+          </div>
+          <div class="large-2 small-6 columns">
+            <div class="groom-bride">
+              <img src="assets/images/floyd.jpg" alt="">
+              <h4>Floyd Flores</h4>
+            </div>
+          </div>
+          <div class="large-2 small-6 columns">
+            <div class="groom-bride">
+              <img src="assets/images/ej.jpg" alt="">
+              <h4>EJ Gianan</h4>
+            </div>
+          </div>
+          <div class="large-2 small-6 columns">
+            <div class="groom-bride">
+              <img src="assets/images/nero.jpg" alt="">
+              <h4>Nero Sorra</h4>
+            </div>
+          </div>
+          <div class="large-2 small-6 columns">
+            <div class="groom-bride">
+              <img src="assets/images/junsan.jpg" alt="">
+              <h4>Santos Sorra Jr.</h4>
+            </div>
+          </div>
+      </div>
+
+      <h1>The Bridesmaids</h1>
+      <div class="row">
+          <div class="large-2 small-6 columns">
+            <div class="groom-bride">
+              <img src="assets/images/lala.jpg" alt="">
+              <h4>Ara Bongat</h4>
+            </div>
+          </div>
+          <div class="large-2 small-6 columns">
+            <div class="groom-bride">
+              <img src="assets/images/lalab.jpg" alt="">
+              <h4>Clarence Vargas</h4>
+            </div>
+          </div>
+          <div class="large-2 small-6 columns">
+            <div class="groom-bride">
+              <img src="assets/images/marian.jpg" alt="">
+              <h4>Marian Sorra</h4>
+            </div>
+          </div>
+          <div class="large-2 small-6 columns">
+            <div class="groom-bride">
+              <img src="assets/images/aiza.jpg" alt="">
+              <h4>Aiza Matienzo</h4>
+            </div>
+          </div>
+          <div class="large-2 small-6 columns">
+            <div class="groom-bride">
+              <img src="assets/images/preslin.jpg" alt="">
+              <h4>Preslin Sorra</h4>
+            </div>
+          </div>
+          <div class="large-2 small-6 columns">
+            <div class="groom-bride">
+              <img src="assets/images/camille.jpg" alt="">
+              <h4>Camille Talan</h4>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <section id="footer">
+      <img src="assets/images/logo-white.png" alt="">
+      <div class="copyright">
+        <p>Copyright © 2017 — designed by <a href="http://www.creativz.github.io" target="_blank">Zim Arcilla</a> — photographs by <a href="http://www.franklopezgallery.com" target="_blank">Frank Lopez Gallery</a></p>
+      </div>
     </section>
 
     <script src="assets/js/vendor/jquery.js"></script>
+    <script src="assets/js/modernizr.custom.js"></script>
     <script src="assets/js/vendor/what-input.js"></script>
     <script src="assets/js/vendor/foundation.js"></script>
     <script src="assets/js/rAF.js"></script>
     <script src="assets/js/animated-bg.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/masonry.pkgd.min.js"></script>
+    <script src="assets/js/classie.js"></script>
+    <script src="assets/js/cbpGridGallery.js"></script>
+    <script src="assets/js/jquery.stellar.min.js"></script>
     <script src="assets/js/app.js"></script>
   </body>
 </html>
