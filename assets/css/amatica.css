@@ -1,0 +1,26 @@
+/* amatica-sc-regular - latin */
+@font-face {
+  font-family: 'Amatica SC';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/amatica_sc/amatica-sc-v1-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Amatica SC'), local('AmaticaSC-Regular'),
+       url('fonts/amatica_sc/amatica-sc-v1-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/amatica_sc/amatica-sc-v1-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/amatica_sc/amatica-sc-v1-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('fonts/amatica_sc/amatica-sc-v1-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/amatica_sc/amatica-sc-v1-latin-regular.svg#AmaticaSC') format('svg'); /* Legacy iOS */
+}
+/* amatica-sc-700 - latin */
+@font-face {
+  font-family: 'Amatica SC';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/amatica_sc/amatica-sc-v1-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Amatica SC Bold'), local('AmaticaSC-Bold'),
+       url('fonts/amatica_sc/amatica-sc-v1-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/amatica_sc/amatica-sc-v1-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/amatica_sc/amatica-sc-v1-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('fonts/amatica_sc/amatica-sc-v1-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/amatica_sc/amatica-sc-v1-latin-700.svg#AmaticaSC') format('svg'); /* Legacy iOS */
+}
