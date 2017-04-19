@@ -192,7 +192,7 @@ p {
 #entourage h4 {
     font-family: "Amatica SC", sans-serif;
     text-align: center;
-    font-size: 32px;
+    font-size: 26px;
     line-height: 34px;
 }
 
@@ -344,6 +344,10 @@ p {
 
 	#footer img {
  		width: 34vw;
+	}
+
+	.man-maid {
+		margin-bottom: 30px;
 	}
 
 
