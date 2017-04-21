@@ -31,6 +31,21 @@ var x = setInterval(function() {
 
 new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
 
-$('#main-banner').stellar({
-	horizontalScrolling: false,
+$( document ).ready(function() {
+
+    var waypoint = new Waypoint({
+      element: document.getElementById('getting-married'),
+      handler: function() {
+        $('.top-bar').toggleClass("animated slideInDOwn visible");
+      }
+    });
+
+    $('a').smoothScroll({
+      offset: -65
+    });
+
+
 });
+	$(window).stellar({
+		horizontalScrolling: false,
+	});

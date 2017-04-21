@@ -25,6 +25,37 @@ p {
 	width: 22vw;
 }
 
+.top-bar {
+    padding: 0;
+    height: 60px;
+    background: white;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 1px 1px 2px #dee9ea;
+}
+
+.top-bar ul, .top-bar ul li {
+	background: transparent;
+}
+
+#top-bar-logo {
+    width: 82px;
+    background: white;
+    border-radius: 50%;
+    border: 7px solid white;
+    box-shadow: 0px 2px 2px rgb(222, 233, 234);
+}
+
+.top-bar-right a {
+    line-height: 60px!important;
+    padding: 0 20px!important;
+    color: #1b696e;
+    font-family: "Amatica SC", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
 #logo h4, #logo h2 {
 	font-family: "Amatica SC", sans-serif;
 	font-weight: bold;
@@ -59,6 +90,14 @@ p {
 
 .scroll-down a i {
 	color: #920449;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.visible {
+	visibility: visible;
 }
 
 
